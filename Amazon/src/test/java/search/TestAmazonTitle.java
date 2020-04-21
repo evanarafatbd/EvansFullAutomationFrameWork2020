@@ -1,10 +1,10 @@
 package search;
 
-import amazonhome.AmazonHomePage;
+import base.CommonAPI;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-public class TestAmazonTitle extends AmazonHomePage {
+public class TestAmazonTitle extends CommonAPI {
 
 
     @Test

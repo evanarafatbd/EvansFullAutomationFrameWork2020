@@ -1,6 +1,6 @@
 package search;
 
-import amazonhome.AmazonHomePage;
+import base.CommonAPI;
 import data.TestData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class TestSearch extends AmazonHomePage {
+public class TestSearch extends CommonAPI {
 
     @Test
     public void testTypingOnSearchBox()throws InterruptedException{
