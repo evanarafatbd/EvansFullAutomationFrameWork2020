@@ -1,2 +1,5 @@
-/Users/matiur/IdeaProjects/WebAutomationFrameworkMarch2020/Amazon/src/main/java/amazonhome/TestData.java
-/Users/matiur/IdeaProjects/WebAutomationFrameworkMarch2020/Amazon/src/main/java/amazonhome/AmazonHomePage.java
+/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/src/main/java/pages/AmazonHome.java
+/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/src/main/java/menu/FetchDropDown.java
+/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/src/main/java/datasuply/DataSource.java
+/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/src/main/java/data/TestData.java
+/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/src/main/java/pages/SearchPage.java

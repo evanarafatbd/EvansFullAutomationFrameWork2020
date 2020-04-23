@@ -10,7 +10,7 @@
         <classes>
 
            <!--<class name="search.TestAmazonTitle" />-->
-           <class name="search.TestSearch" />
+           <class name="search.TestSearchItems" />
 
         </classes>
 

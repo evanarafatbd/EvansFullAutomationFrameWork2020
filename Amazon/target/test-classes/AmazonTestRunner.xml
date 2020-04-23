@@ -3,12 +3,14 @@
 
  <suite name ="Amazon Test Automation Script" parallel="false">
 
+    <parameter name="url" value="https://www.amazon.com"/>
+
     <test name = "Amazon Home">
 
         <classes>
 
            <!--<class name="search.TestAmazonTitle" />-->
-           <class name="search.TestSearch" />
+           <class name="search.TestSearchItems" />
 
         </classes>
 

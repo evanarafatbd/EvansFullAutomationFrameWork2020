@@ -8,7 +8,9 @@
     <test name = "Automation Practice Home">
 
         <classes>
-            <class name= "women.TestItemDisplay"/>
+<!--            <class name= "allsections.TestWomenSection"/>-->
+<!--            <class name= "allsections.TestDressesSection"/>-->
+            <class name= "allsections.TestTShirtSection"/>
         </classes>
 
     </test>
