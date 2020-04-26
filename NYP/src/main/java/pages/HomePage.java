@@ -6,7 +6,7 @@ import org.openqa.selenium.support.How;
 
 public class HomePage {
 
-    @FindBy(how = How.CSS, using = "#twotabsearchtextbox")
+    @FindBy(how = How.CSS, using = "#sections > span.menu-icon > svg")
     public static WebElement sectionNavBarWebElement;
 
     @FindBy(how = How.CSS, using = "#search > span.search-text")
@@ -38,6 +38,4 @@ public class HomePage {
     public void clickOnSectionsMenu() {
         getSectionNavBarWebElement().click();
     }
-
-
 }

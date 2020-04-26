@@ -3,13 +3,13 @@
 
 <suite name ="NYP Test Automation Script" parallel="false">
 
-    <parameter name="url" value="https://www.w3schools.com/sql/sql_where.asp"/>
+    <parameter name="url" value="https://nypost.com/"/>
     <parameter name="browserName" value="chrome"/>
 
     <test name = "NYP Home">
 
         <classes>
-            <class name="" />
+            <class name="e2e.TestAllFeatures" />
         </classes>
 
     </test>
