@@ -16,9 +16,4 @@ public class TestAllFeatures extends CommonAPI {
         functionality.runAllTheFeatureTest(driver);
     }
 
-    //@Test
-    public void articleSection()throws IOException {
-        MetroPage metroPage = PageFactory.initElements(driver,MetroPage.class);
-        metroPage.clickOnHeadLineNews();
-    }
 }

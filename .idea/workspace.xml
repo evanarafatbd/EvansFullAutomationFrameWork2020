@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d0e8f17-c185-4b73-8634-6127f9583775" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/NYP/src/main/java/pages/menu/BusinessPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NYP/src/main/java/pages/menu/EntertainmentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NYP/src/main/java/pages/menu/MetroPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationPractice/AutomationPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPractice/AutomationPractice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/Cnn.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/Generic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/datasources/ConnectToExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/datasources/ConnectToExcelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/datasources/ConnectToExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/datasources/ConnectToExcelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/data/pom.xls" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/data/nyp-test-steps.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/datasource/FetchTheSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/datasource/FetchTheSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/pages/AllFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/features/AllFunctionality.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/pages/SectionsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/pages/SectionsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/main/java/pages/SignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/main/java/pages/SignUpPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/test/java/e2e/TestAllFeatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/test/java/e2e/TestAllFeatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NYP/src/test/resources/NYPTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NYP/src/test/resources/NYPTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/W3Schools/W3Schools.iml" beforeDir="false" afterPath="$PROJECT_DIR$/W3Schools/W3Schools.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1d0e8f17-c185-4b73-8634-6127f9583775" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -115,6 +91,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Amazon" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Amazon" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,6 +234,42 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="518" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1587925090982">
       <screen x="0" y="23" width="1440" height="832" />
@@ -228,44 +287,44 @@
     <state width="424" height="457" key="DebuggerActiveHint/0.23.1440.832@0.23.1440.832" timestamp="1587929342831" />
     <state width="424" height="458" key="DebuggerActiveHint/0.23.1440.833@0.23.1440.833" timestamp="1587929734978" />
     <state width="424" height="456" key="DebuggerActiveHint/0.23.1440.834@0.23.1440.834" timestamp="1587601925220" />
-    <state width="1167" height="268" key="GridCell.Tab.0.bottom" timestamp="1587936477867">
+    <state width="1201" height="156" key="GridCell.Tab.0.bottom" timestamp="1587937342997">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1358" height="310" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1587616985330" />
     <state width="1358" height="214" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1587604214040" />
     <state width="1358" height="99" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1587607557853" />
     <state width="1358" height="363" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1587607889563" />
-    <state width="1167" height="268" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1587936477867" />
+    <state width="1201" height="156" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1587937342997" />
     <state width="1167" height="139" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1587936422508" />
     <state width="1168" height="242" key="GridCell.Tab.0.bottom/0.23.1440.834@0.23.1440.834" timestamp="1587934696070" />
-    <state width="1167" height="268" key="GridCell.Tab.0.center" timestamp="1587936477866">
+    <state width="1201" height="156" key="GridCell.Tab.0.center" timestamp="1587937342996">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1358" height="310" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1587616985330" />
     <state width="1358" height="214" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1587604214039" />
     <state width="1358" height="99" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1587607557852" />
     <state width="1358" height="363" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1587607889562" />
-    <state width="1167" height="268" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1587936477866" />
+    <state width="1201" height="156" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1587937342996" />
     <state width="1167" height="139" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1587936422508" />
     <state width="1168" height="242" key="GridCell.Tab.0.center/0.23.1440.834@0.23.1440.834" timestamp="1587934696070" />
-    <state width="1167" height="268" key="GridCell.Tab.0.left" timestamp="1587936477866">
+    <state width="1201" height="156" key="GridCell.Tab.0.left" timestamp="1587937342995">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1358" height="310" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1587616985329" />
     <state width="1358" height="214" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1587604214039" />
     <state width="1358" height="99" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1587607557851" />
     <state width="1358" height="363" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1587607889561" />
-    <state width="1167" height="268" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1587936477866" />
+    <state width="1201" height="156" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1587937342995" />
     <state width="1167" height="139" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1587936422507" />
     <state width="1168" height="242" key="GridCell.Tab.0.left/0.23.1440.834@0.23.1440.834" timestamp="1587934696069" />
-    <state width="1167" height="268" key="GridCell.Tab.0.right" timestamp="1587936477867">
+    <state width="1201" height="156" key="GridCell.Tab.0.right" timestamp="1587937342996">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="1358" height="310" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1587616985330" />
     <state width="1358" height="214" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1587604214040" />
     <state width="1358" height="99" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1587607557852" />
     <state width="1358" height="363" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1587607889562" />
-    <state width="1167" height="268" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1587936477867" />
+    <state width="1201" height="156" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1587937342996" />
     <state width="1167" height="139" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1587936422508" />
     <state width="1168" height="242" key="GridCell.Tab.0.right/0.23.1440.834@0.23.1440.834" timestamp="1587934696070" />
     <state width="1167" height="268" key="GridCell.Tab.1.bottom" timestamp="1587936477869">
