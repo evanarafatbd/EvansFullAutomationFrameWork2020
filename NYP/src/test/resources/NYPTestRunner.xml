@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="W3Schools Test Automation Script" parallel="false">
+
+    <parameter name="url" value="https://www.w3schools.com/sql/sql_where.asp"/>
+    <parameter name="browserName" value="chrome"/>
+
+    <test name = "W3Schools Home">
+
+        <classes>
+            <class name="tabledata.TestTableData" />
+        </classes>
+
+    </test>
+
+</suite>
+
