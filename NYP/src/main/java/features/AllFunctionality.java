@@ -1,0 +1,72 @@
+package features;
+
+import datasource.FetchTheSteps;
+import org.openqa.selenium.InvalidArgumentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import pages.HomePage;
+import pages.SearchPage;
+import pages.SectionsPage;
+import pages.SignUpPage;
+
+import java.io.IOException;
+
+public class AllFunctionality {
+
+    HomePage homePage = null;
+    SignUpPage signUpPage = null;
+    SearchPage searchPage = null;
+    SectionsPage sectionsPage = null;
+
+    public void signUp(WebDriver driver){
+        homePage = PageFactory.initElements(driver, HomePage.class);
+        signUpPage = PageFactory.initElements(driver, SignUpPage.class);
+        homePage.clickOnSignUp();
+        signUpPage.enterEmailAddress("abc123@gmail.com");
+        signUpPage.clickOnSignUp();
+    }
+    public void search(WebDriver driver){
+        homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnSearch();
+        searchPage = PageFactory.initElements(driver, SearchPage.class);
+        searchPage.typeOnSearchField("covid-19");
+    }
+    public void clickOnSectionMenu(WebDriver driver){
+        homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage.clickOnSectionsMenu();
+    }
+    public void sectionsMenu(WebDriver driver){
+        clickOnSectionMenu(driver);
+        sectionsPage = PageFactory.initElements(driver, SectionsPage.class);
+        sectionsPage.goToMetroPage(driver).clickOnHeadLineNews();
+        clickOnSectionMenu(driver);
+        sectionsPage.goToBusinessPage(driver).clickOnHeadLineNews();
+        clickOnSectionMenu(driver);
+        sectionsPage.goToEntertainmentPage(driver).clickOnHeadLineNews();
+    }
+    public void runAllTheFeatureTest(WebDriver driver) throws IOException {
+        FetchTheSteps fetchTheSteps = new FetchTheSteps();
+        String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
+        for(int i=2; i<featureSteps.length; i++){
+            select(featureSteps[i],driver);
+        }
+    }
+
+    public void select(String featureName, WebDriver driver)throws IOException{
+        switch(featureName){
+            case "signUp":
+                signUp(driver);
+                break;
+            case "sectionsMenu":
+                sectionsMenu(driver);
+                break;
+            case "search":
+                search(driver);
+                break;
+            default:
+                throw new InvalidArgumentException("Invalid features choice");
+        }
+    }
+
+}
