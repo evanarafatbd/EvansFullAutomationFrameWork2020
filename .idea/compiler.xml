@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="W3Schools" />
         <module name="Amazon" />
         <module name="AutomationPractice" />
         <module name="Cnn" />
         <module name="Generic" />
-        <module name="W3Schools" />
+        <module name="Cnn" />
+        <module name="NYP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +20,7 @@
       <module name="AutomationPractice" target="1.5" />
       <module name="Cnn" target="1.8" />
       <module name="Generic" target="1.5" />
+      <module name="NYP" target="1.5" />
       <module name="W3Schools" target="1.8" />
       <module name="WebAutomationFrameworkMarch2020" target="1.5" />
     </bytecodeTargetLevel>
