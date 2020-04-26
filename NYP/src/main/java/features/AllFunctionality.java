@@ -31,6 +31,7 @@ public class AllFunctionality {
         homePage.clickOnSearch();
         searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.typeOnSearchField("covid-19");
+        searchPage.clickOnSearchButton();
     }
     public void clickOnSectionMenu(WebDriver driver){
         homePage = PageFactory.initElements(driver, HomePage.class);
