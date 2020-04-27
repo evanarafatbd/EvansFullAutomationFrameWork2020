@@ -49,7 +49,7 @@ public class AllFunctionality {
     public void runAllTheFeatureTest(WebDriver driver) throws IOException {
         FetchTheSteps fetchTheSteps = new FetchTheSteps();
         String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
-        for(int i=2; i<featureSteps.length; i++){
+        for(int i=1; i<featureSteps.length; i++){
             select(featureSteps[i],driver);
         }
     }

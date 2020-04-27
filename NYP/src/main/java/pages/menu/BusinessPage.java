@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class BusinessPage {
+public class BusinessPage extends News{
 
     private final WebDriver driver;
     public BusinessPage(WebDriver driver){
@@ -20,14 +20,6 @@ public class BusinessPage {
 
     public WebElement getHeadLineNewsWebElement(){
         return headLineNewsWebElement;
-    }
-
-    public void clickOnHeadLineNews(){
-        CommonAPI.waitUntilVisible(headLineNewsWebElement);
-        String headLineNews = getHeadLineNewsWebElement().getText();
-        System.out.println(headLineNews);
-        CommonAPI.waitUntilClickAble(headLineNewsWebElement);
-        getHeadLineNewsWebElement().click();
     }
 
 }

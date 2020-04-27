@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-public class EntertainmentPage{
+public class EntertainmentPage extends News{
 
     private final WebDriver driver;
 
@@ -23,11 +23,4 @@ public class EntertainmentPage{
         return headLineNewsWebElement;
     }
 
-    public void clickOnHeadLineNews(){
-        CommonAPI.waitUntilVisible(headLineNewsWebElement);
-        String headLineNews = getHeadLineNewsWebElement().getText();
-        System.out.println(headLineNews);
-        CommonAPI.waitUntilClickAble(headLineNewsWebElement);
-        getHeadLineNewsWebElement().click();
-    }
 }
