@@ -51,7 +51,8 @@ public class CommonAPI {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
+        System.out.println("browser has been launched and maximized");
     }
 
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
