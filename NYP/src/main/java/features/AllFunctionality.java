@@ -31,6 +31,7 @@ public class AllFunctionality {
         homePage.clickOnSearch();
         searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.typeOnSearchField("covid-19");
+        searchPage.clickOnSearchButton();
     }
     public void clickOnSectionMenu(WebDriver driver){
         homePage = PageFactory.initElements(driver, HomePage.class);
@@ -48,7 +49,7 @@ public class AllFunctionality {
     public void runAllTheFeatureTest(WebDriver driver) throws IOException {
         FetchTheSteps fetchTheSteps = new FetchTheSteps();
         String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
-        for(int i=2; i<featureSteps.length; i++){
+        for(int i=1; i<featureSteps.length; i++){
             select(featureSteps[i],driver);
         }
     }
