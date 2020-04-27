@@ -51,6 +51,7 @@ public class CommonAPI {
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
+        System.out.println("driver is launched but not maximized");
         //driver.manage().window().maximize();
     }
 
