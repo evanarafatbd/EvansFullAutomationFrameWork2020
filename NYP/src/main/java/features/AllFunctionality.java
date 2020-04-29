@@ -1,5 +1,6 @@
 package features;
 
+import base.CommonAPI;
 import datasource.FetchTheSteps;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import pages.HomePage;
 import pages.SearchPage;
 import pages.SectionsPage;
 import pages.SignUpPage;
+import reporting.TestLogger;
 
 import java.io.IOException;
 
@@ -20,6 +22,7 @@ public class AllFunctionality {
     SectionsPage sectionsPage = null;
 
     public void signUp(WebDriver driver){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage = PageFactory.initElements(driver, HomePage.class);
         signUpPage = PageFactory.initElements(driver, SignUpPage.class);
         homePage.clickOnSignUp();
@@ -27,6 +30,7 @@ public class AllFunctionality {
         signUpPage.clickOnSignUp();
     }
     public void search(WebDriver driver){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.clickOnSearch();
         searchPage = PageFactory.initElements(driver, SearchPage.class);
@@ -34,10 +38,12 @@ public class AllFunctionality {
         searchPage.clickOnSearchButton();
     }
     public void clickOnSectionMenu(WebDriver driver){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.clickOnSectionsMenu();
     }
     public void sectionsMenu(WebDriver driver){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickOnSectionMenu(driver);
         sectionsPage = PageFactory.initElements(driver, SectionsPage.class);
         sectionsPage.goToMetroPage(driver).clickOnHeadLineNews();
@@ -47,6 +53,7 @@ public class AllFunctionality {
         sectionsPage.goToEntertainmentPage(driver).clickOnHeadLineNews();
     }
     public void runAllTheFeatureTest(WebDriver driver) throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         FetchTheSteps fetchTheSteps = new FetchTheSteps();
         String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
         for(int i=1; i<featureSteps.length; i++){
@@ -55,6 +62,7 @@ public class AllFunctionality {
     }
 
     public void select(String featureName, WebDriver driver)throws IOException{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         switch(featureName){
             case "signUp":
                 signUp(driver);
@@ -69,5 +77,4 @@ public class AllFunctionality {
                 throw new InvalidArgumentException("Invalid features choice");
         }
     }
-
 }

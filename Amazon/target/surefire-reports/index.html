@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Amazon_Test_Automation_Script">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_Automation_Script" title="search.TestSearch" hash-for-method="testTypingOnSearchBox">testTypingOnSearchBox</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Amazon_Test_Automation_Script" title="search.TestSearchItems" hash-for-method="searchItems">searchItems</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Amazon_Test_Automation_Script -->
@@ -120,14 +120,14 @@
           <div class="suite-Amazon_Test_Automation_Script-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">search.TestSearch</span>
+              <span class="class-name">search.TestSearchItems</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testTypingOnSearchBox">
-                  </a> <!-- testTypingOnSearchBox -->
-                  <span class="method-name">testTypingOnSearchBox</span>
+                  <a name="searchItems">
+                  </a> <!-- searchItems -->
+                  <span class="method-name">searchItems</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,16 +135,23 @@
         </div> <!-- panel Amazon_Test_Automation_Script -->
         <div panel-name="test-xml-Amazon_Test_Automation_Script" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/matiur/IdeaProjects/WebAutomationFrameworkMarch2020/Amazon/target/test-classes/AmazonTestRunner.xml</span>
+            <span class="header-content">/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/target/test-classes/AmazonTestRunner.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Amazon Test Automation Script&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;Sierra&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;75.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com&quot;/&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Amazon Home&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;search.TestSearch&quot;/&gt;
+      &lt;class name=&quot;search.TestSearchItems&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Amazon Home --&gt;
 &lt;/suite&gt; &lt;!-- Amazon Test Automation Script --&gt;
@@ -186,14 +193,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testTypingOnSearchBox')
-data.setCell(0, 2, 'search.TestSearch')
-data.setCell(0, 3, 18634);
+data.setCell(0, 1, 'searchItems')
+data.setCell(0, 2, 'search.TestSearchItems')
+data.setCell(0, 3, 35809);
 window.suiteTableData['Amazon_Test_Automation_Script']= { tableData: data, tableDiv: 'times-div-Amazon_Test_Automation_Script'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
               <div id="times-div-Amazon_Test_Automation_Script">
               </div> <!-- times-div-Amazon_Test_Automation_Script -->
             </div> <!-- times-div -->
@@ -204,6 +211,74 @@ return data;
             <span class="header-content">Reporter output for Amazon Test Automation Script</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchItems</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TestSearchItems: search Items</span>
+                <span class="reporter-method-output">SearchPage: search Items And Submit Button</span>
+                <span class="reporter-method-output">DataSource: get Items List From DB</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   Java   Book</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   Selenium   Book</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   Laptop</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   Honey</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   Toothpaste</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   ear - ring</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   ps 4 games</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   mac Air</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   remote</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: type Item Name :   bags</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+                <span class="reporter-method-output">SearchPage: click On Search</span>
+                <span class="reporter-method-output">SearchPage: get Submit Web Element</span>
+                <span class="reporter-method-output">SearchPage: clear Input Box</span>
+                <span class="reporter-method-output">SearchPage: get Search Input Web Element</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Amazon_Test_Automation_Script" class="panel">
@@ -219,19 +294,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">search.TestSearch</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
+              <div class="chronological-class-name">search.TestSearchItems</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">extentSetup(org.testng.TestRunner@6b54655f)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, firefox, 75.0, https://www.amazon.com)</span>
+                <span class="method-start">128 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void search.TestSearchItems.searchItems() throws java.lang.Exception,java.io.IOException,java...)</span>
+                <span class="method-start">6418 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testTypingOnSearchBox</span>
-                <span class="method-start">21242 ms</span>
+                <span class="method-name">searchItems</span>
+                <span class="method-start">6438 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">39878 ms</span>
+                <span class="method-name">afterEachTestMethod([TestResult name=searchItems status=SUCCESS method=TestSearchItems.searchItems()[pri:0, instance:sea...)</span>
+                <span class="method-start">42248 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">46566 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">46581 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

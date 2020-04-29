@@ -1,8 +1,10 @@
 package pages;
 
+import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 public class HomePage {
 
@@ -19,23 +21,28 @@ public class HomePage {
         return sectionNavBarWebElement;
     }
 
-    public static WebElement getSearchWebElement() {
+    public WebElement getSearchWebElement() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return searchWebElement;
     }
 
-    public static WebElement getSignUpWebElement() {
+    public WebElement getSignUpWebElement() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return signUpWebElement;
     }
 
     public void clickOnSignUp() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getSignUpWebElement().click();
     }
 
     public void clickOnSearch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getSearchWebElement().click();
     }
 
     public void clickOnSectionsMenu() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getSectionNavBarWebElement().click();
     }
 }

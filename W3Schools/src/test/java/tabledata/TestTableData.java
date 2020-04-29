@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ public class TestTableData extends CommonAPI{
 
     @Test
     public void readData(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         String tableHeaderColumn1 = scrapeText(".w3-table-all.notranslate tr:nth-child(1) th:nth-child(1)");
         String tableHeaderColumn2 = scrapeText(".w3-table-all.notranslate tr:nth-child(1) th:nth-child(2)");
         String tableHeaderColumn3 = scrapeText(".w3-table-all.notranslate tr:nth-child(1) th:nth-child(3)");

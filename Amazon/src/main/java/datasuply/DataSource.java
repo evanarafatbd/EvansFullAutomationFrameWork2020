@@ -1,6 +1,8 @@
 package datasuply;
 
+import base.CommonAPI;
 import datasources.ConnectToSqlDB;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -25,7 +27,8 @@ public class DataSource {
     }
     //Database
 
-    public static List<String> getItemsListFromDB()throws Exception, IOException, SQLException, ClassNotFoundException {
+    public List<String> getItemsListFromDB()throws Exception, IOException, SQLException, ClassNotFoundException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> list = new ArrayList<>();
         list = connectToSqlDB.readDataBase("ItemList", "items");
         return list;

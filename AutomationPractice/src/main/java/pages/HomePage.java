@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 public class HomePage {
 
@@ -16,27 +17,33 @@ public class HomePage {
     @FindBy(how = How.XPATH, using = "//*[@id='block_top_menu']/ul/li[3]")
     public static WebElement tShirtWebElement;
 
-    public static WebElement getWomenTabWebElement() {
+    public WebElement getWomenTabWebElement() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return womenTabWebElement;
     }
 
-    public static WebElement getDressesWebElement() {
+    public WebElement getDressesWebElement() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return dressesWebElement;
     }
 
-    public static WebElement gettShirtWebElement() {
+    public WebElement gettShirtWebElement() {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return tShirtWebElement;
     }
 
     public void clickOnWomenTab(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getWomenTabWebElement().click();
     }
 
     public void clickOnDressesTab(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getDressesWebElement().click();
     }
 
     public void clickOnTShirtTab(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         gettShirtWebElement().click();
     }
 

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import reporting.TestLogger;
 
 public class MetroPage extends News{
 
@@ -19,6 +20,7 @@ public class MetroPage extends News{
     public static WebElement headLineNewsWebElement;
 
     public WebElement getHeadLineNewsWebElement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return headLineNewsWebElement;
     }
 }

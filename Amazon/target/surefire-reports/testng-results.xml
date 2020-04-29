@@ -1,25 +1,483 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/target/surefire-reports/html]]>
+    </line>
+    <line>
+      <![CDATA[TestSearchItems: search Items]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: search Items And Submit Button]]>
+    </line>
+    <line>
+      <![CDATA[DataSource: get Items List From DB]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   Java   Book]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   Selenium   Book]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   Laptop]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   Honey]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   Toothpaste]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   ear - ring]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   ps 4 games]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   mac Air]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   remote]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: type Item Name :   bags]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: click On Search]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Submit Web Element]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: clear Input Box]]>
+    </line>
+    <line>
+      <![CDATA[SearchPage: get Search Input Web Element]]>
+    </line>
   </reporter-output>
-  <suite name="Amazon Test Automation Script" duration-ms="44717" started-at="2020-04-16T03:18:44Z" finished-at="2020-04-16T03:19:29Z">
+  <suite name="Amazon Test Automation Script" duration-ms="46452" started-at="2020-04-29T22:44:06Z" finished-at="2020-04-29T22:44:52Z">
     <groups>
     </groups>
-    <test name="Amazon Home" duration-ms="44717" started-at="2020-04-16T03:18:44Z" finished-at="2020-04-16T03:19:29Z">
-      <class name="search.TestSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:search.TestSearch@4cb2c100]" name="setUp" is-config="true" duration-ms="21242" started-at="2020-04-16T03:18:44Z" finished-at="2020-04-16T03:19:05Z">
+    <test name="Amazon Home" duration-ms="46452" started-at="2020-04-29T22:44:06Z" finished-at="2020-04-29T22:44:52Z">
+      <class name="search.TestSearchItems">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:search.TestSearchItems@153f5a29]" name="extentSetup" is-config="true" duration-ms="115" started-at="2020-04-29T22:44:05Z" finished-at="2020-04-29T22:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6b54655f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/mrahman/develop/deepcoding/Web-Automation-March2020/Amazon/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:search.TestSearchItems@153f5a29]" name="setUp" is-config="true" duration-ms="6287" started-at="2020-04-29T22:44:06Z" finished-at="2020-04-29T22:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[75.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testTypingOnSearchBox()[pri:0, instance:search.TestSearch@4cb2c100]" name="testTypingOnSearchBox" duration-ms="18634" started-at="2020-04-16T03:19:05Z" finished-at="2020-04-16T03:19:24Z">
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:search.TestSearchItems@153f5a29]" name="startExtent" is-config="true" duration-ms="20" started-at="2020-04-29T22:44:12Z" finished-at="2020-04-29T22:44:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void search.TestSearchItems.searchItems() throws java.lang.Exception,java.io.IOException,java.sql.SQLException,java.lang.ClassNotFoundException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTypingOnSearchBox -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:search.TestSearch@4cb2c100]" name="cleanUp" is-config="true" duration-ms="4764" started-at="2020-04-16T03:19:24Z" finished-at="2020-04-16T03:19:29Z">
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="searchItems()[pri:0, instance:search.TestSearchItems@153f5a29]" name="searchItems" duration-ms="35809" started-at="2020-04-29T22:44:12Z" finished-at="2020-04-29T22:44:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestSearchItems: search Items]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: search Items And Submit Button]]>
+            </line>
+            <line>
+              <![CDATA[DataSource: get Items List From DB]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   Java   Book]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   Selenium   Book]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   Laptop]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   Honey]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   Toothpaste]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   ear - ring]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   ps 4 games]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   mac Air]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   remote]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: type Item Name :   bags]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: click On Search]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Submit Web Element]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: clear Input Box]]>
+            </line>
+            <line>
+              <![CDATA[SearchPage: get Search Input Web Element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchItems -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:search.TestSearchItems@153f5a29]" name="afterEachTestMethod" is-config="true" duration-ms="4318" started-at="2020-04-29T22:44:48Z" finished-at="2020-04-29T22:44:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItems status=SUCCESS method=TestSearchItems.searchItems()[pri:0, instance:search.TestSearchItems@153f5a29] output=TestSearchItems: search Items]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:search.TestSearchItems@153f5a29]" name="cleanUp" is-config="true" duration-ms="0" started-at="2020-04-29T22:44:52Z" finished-at="2020-04-29T22:44:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-      </class> <!-- search.TestSearch -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:search.TestSearchItems@153f5a29]" name="generateReport" is-config="true" duration-ms="39" started-at="2020-04-29T22:44:52Z" finished-at="2020-04-29T22:44:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- search.TestSearchItems -->
     </test> <!-- Amazon Home -->
   </suite> <!-- Amazon Test Automation Script -->
 </testng-results>
