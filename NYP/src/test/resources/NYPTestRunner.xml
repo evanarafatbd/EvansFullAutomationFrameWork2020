@@ -9,7 +9,7 @@
     <parameter name="os_version" value="Sierra"/>
     <parameter name="browserName" value="chrome"/>
     <parameter name="browserVersion" value="75.0"/>
-    <parameter name="url" value="https://nypost.com/"/>
+    <parameter name="url" value="https://nypost.com/"></parameter>
 
     <test name = "NYP Home">
 

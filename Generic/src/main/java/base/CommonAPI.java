@@ -29,10 +29,10 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username = "your user name";
+    public String browserstack_username = "your browser stack user name";
     public String browserstack_accesskey = "your access key";
-    public String saucelabs_username = "";
-    public String saucelabs_accesskey = "";
+    public String saucelabs_username = "your Saucelabs user name";
+    public String saucelabs_accesskey = "your access key";
 
     @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
