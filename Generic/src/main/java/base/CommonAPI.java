@@ -29,8 +29,8 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
 
     public static WebDriver driver = null;
-    public String browserstack_username = "your browser stack user name";
-    public String browserstack_accesskey = "your access key";
+    public String browserstack_username = "matiurrahman4";
+    public String browserstack_accesskey = "vxgPF5RatzyD5MogH2Zx";
     public String saucelabs_username = "your Saucelabs user name";
     public String saucelabs_accesskey = "your access key";
 
@@ -211,7 +211,7 @@ public class CommonAPI {
         driver.findElement(By.id(locator)).clear();
     }
 
-    public void navigateBack() {
+    public static void navigateBack() {
         driver.navigate().back();
     }
 

@@ -1,9 +1,8 @@
 package features;
 
-import datasource.FetchTheSteps;
+import datasuply.FetchTheSteps;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import pages.HomePage;
 import pages.SearchPage;
