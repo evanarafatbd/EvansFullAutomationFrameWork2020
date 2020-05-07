@@ -4,7 +4,6 @@ import base.CommonAPI;
 import datasource.FetchTheSteps;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import pages.HomePage;
 import pages.SearchPage;
@@ -38,12 +37,10 @@ public class AllFunctionality {
         searchPage.clickOnSearchButton();
     }
     public void clickOnSectionMenu(WebDriver driver){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         homePage = PageFactory.initElements(driver, HomePage.class);
         homePage.clickOnSectionsMenu();
     }
     public void sectionsMenu(WebDriver driver){
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickOnSectionMenu(driver);
         sectionsPage = PageFactory.initElements(driver, SectionsPage.class);
         sectionsPage.goToMetroPage(driver).clickOnHeadLineNews();
@@ -53,7 +50,6 @@ public class AllFunctionality {
         sectionsPage.goToEntertainmentPage(driver).clickOnHeadLineNews();
     }
     public void runAllTheFeatureTest(WebDriver driver) throws IOException {
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         FetchTheSteps fetchTheSteps = new FetchTheSteps();
         String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
         for(int i=1; i<featureSteps.length; i++){
@@ -77,4 +73,5 @@ public class AllFunctionality {
                 throw new InvalidArgumentException("Invalid features choice");
         }
     }
+
 }

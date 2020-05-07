@@ -14,13 +14,13 @@ import java.io.IOException;
 
 public class ConnectToExcelFile {
 
-    HSSFWorkbook wb = null;
-    HSSFSheet sheet = null;
-    Cell cell = null;
-    FileOutputStream fio = null;
-    int numberOfRows, numberOfCol, rowNum;
+    public static HSSFWorkbook wb = null;
+    public static HSSFSheet sheet = null;
+    public static Cell cell = null;
+    public static FileOutputStream fio = null;
+    public static int numberOfRows, numberOfCol, rowNum;
 
-    public String[][] fileReader1(String path,int sheetIndex) throws IOException {
+    public static String[][] fileReader1(String path,int sheetIndex) throws IOException {
         String[][] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
@@ -41,7 +41,7 @@ public class ConnectToExcelFile {
         return data;
     }
 
-    public String[] fileReader2(String path, int sheetIndex) throws IOException {
+    public static String[] fileReader2(String path, int sheetIndex) throws IOException {
         String[] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
@@ -51,7 +51,7 @@ public class ConnectToExcelFile {
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1];
 
-        for (int i = 1; i < data.length; i++) {
+        for (int i = 0; i < data.length; i++) {
             HSSFRow rows = sheet.getRow(i);
             for (int j = 0; j < numberOfCol; j++) {
                 HSSFCell cell = rows.getCell(j);
@@ -62,7 +62,7 @@ public class ConnectToExcelFile {
         return data;
     }
 
-    public String getCellValue(HSSFCell cell) {
+    public static String getCellValue(HSSFCell cell) {
         Object value = null;
 
         int dataType = cell.getCellType();
@@ -97,4 +97,14 @@ public class ConnectToExcelFile {
         wb.close();
     }
 
+    public static void main(String [] args)throws IOException{
+        String [][] dataSource = {};
+        String path = System.getProperty("user.dir")+"/BestBuy/data/best-buy-file2.xls";
+        dataSource = fileReader1(path,0);
+        for(int i=0; i<dataSource.length-1; i++) {
+            for(int j=0; j<i; j++) {
+                System.out.println(dataSource[i][j]);
+            }
+        }
+    }
 }

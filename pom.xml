@@ -15,6 +15,7 @@
         <module>W3Schools</module>
         <module>AutomationPractice</module>
         <module>NYP</module>
+        <module>BestBuy</module>
     </modules>
 
     <dependencyManagement>
