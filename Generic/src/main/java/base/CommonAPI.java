@@ -211,7 +211,7 @@ public class CommonAPI {
         driver.findElement(By.id(locator)).clear();
     }
 
-    public void navigateBack() {
+    public static void navigateBack() {
         driver.navigate().back();
     }
 
