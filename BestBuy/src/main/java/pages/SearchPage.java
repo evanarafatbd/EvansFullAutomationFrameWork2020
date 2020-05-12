@@ -37,7 +37,7 @@ public class SearchPage {
 
 
     public void searchNSubmit(WebDriver driver)throws IOException{
-        SignUpPage signUpPage = PageFactory.initElements(driver,SignUpPage.class);
+       SignUpPage signUpPage = PageFactory.initElements(driver,SignUpPage.class);
         String [] items = getItems();
         signUpPage.handleSignUpPopUp();
         for(int i=1; i<items.length; i++) {

@@ -12,7 +12,8 @@ public class FetchExternalData {
         String [] dataSource = {};
         ConnectToExcelFile connectToExcelFile = new ConnectToExcelFile();
         String path = System.getProperty("user.dir")+ givenPath;
-        dataSource = connectToExcelFile.fileReader2(path,0);
+        dataSource= connectToExcelFile.fileReader2(path,0);
+
         return dataSource;
     }
 

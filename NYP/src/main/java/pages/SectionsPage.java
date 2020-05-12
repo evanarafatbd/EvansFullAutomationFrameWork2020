@@ -44,6 +44,7 @@ public class SectionsPage {
     public void clickOnSectionMenuTab(){
         getSectionMenuWebElement().click();
     }
+
     public MetroPage goToMetroPage(WebDriver driver){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getMetroMenuWebElement().click();

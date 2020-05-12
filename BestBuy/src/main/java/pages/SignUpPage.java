@@ -17,19 +17,19 @@ public class SignUpPage {
     public static WebElement signUpModalWebElement;
 
 
-    public WebElement getSignUpWebElement(){
+    public  WebElement getSignUpWebElement(){
         return signUpWebElement;
     }
-    public WebElement getSignUpButtonWebElement(){
+    public  WebElement getSignUpButtonWebElement(){
         return signUpButtonWebElement;
     }
-    public void typeOnSignUp(){
+    public  void typeOnSignUp(){
         getSignUpWebElement().sendKeys("rahmanww@gmail.com");
     }
-    public void clickOnSignUp(){
+    public  void clickOnSignUp(){
         getSignUpButtonWebElement().click();
     }
-    public void handleSignUpPopUp(){
+    public  void handleSignUpPopUp(){
         if(signUpModalWebElement.isDisplayed()) {
             typeOnSignUp();
             clickOnSignUp();

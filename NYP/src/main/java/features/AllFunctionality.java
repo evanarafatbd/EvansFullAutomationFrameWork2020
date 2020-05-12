@@ -1,7 +1,7 @@
 package features;
 
 import base.CommonAPI;
-import datasource.FetchTheSteps;
+import datasuply.FetchTheSteps;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
@@ -13,7 +13,7 @@ import reporting.TestLogger;
 
 import java.io.IOException;
 
-public class AllFunctionality {
+public class AllFunctionality extends CommonAPI{
 
     HomePage homePage = null;
     SignUpPage signUpPage = null;
