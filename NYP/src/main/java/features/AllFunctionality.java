@@ -49,17 +49,11 @@ public class AllFunctionality extends CommonAPI{
         clickOnSectionMenu(driver);
         sectionsPage.goToEntertainmentPage(driver).clickOnHeadLineNews();
     }
-    public void runAllTheFeatureTest(WebDriver driver) throws IOException {
-        FetchTheSteps fetchTheSteps = new FetchTheSteps();
-        String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
-        for(int i=1; i<featureSteps.length; i++){
-            select(featureSteps[i],driver);
-        }
-    }
 
-    public void select(String featureName, WebDriver driver)throws IOException{
-        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        switch(featureName){
+    public void select(String featureName, WebDriver driver)throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
+        switch (featureName) {
             case "signUp":
                 signUp(driver);
                 break;
@@ -73,5 +67,15 @@ public class AllFunctionality extends CommonAPI{
                 throw new InvalidArgumentException("Invalid features choice");
         }
     }
+    public void runAllTheFeatureTest(WebDriver driver) throws IOException {
+        FetchTheSteps fetchTheSteps = new FetchTheSteps();
+        String [] featureSteps = fetchTheSteps.getDataFromExcelFileForFeaturesChoice();
+        for(int i=1; i<featureSteps.length; i++){
+            select(featureSteps[i],driver);
+        }
+    }
 
-}
+
+    }
+
+
